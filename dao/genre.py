@@ -28,3 +28,4 @@ class GenreDAO:
 
         self.session.add(genre)
         self.session.commit()
+        return genre
